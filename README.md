@@ -16,6 +16,7 @@
 
 ### Resources for Induction 
 
+- Induction is an inference rule used in formal proofs, and is the foundation of most correctness proofs for computer programs
 - Weak induction a.k.a "normal induction" [https://www.math.umd.edu/~immortal/CMSC250/notes/weakandstrong.pdf](https://www.math.umd.edu/~immortal/CMSC250/notes/weakandstrong.pdf)
 - Strong induction ak.a course of values induction [https://courses.grainger.illinois.edu/cs173/sp2009/lectures/lect_18.pdf](https://courses.grainger.illinois.edu/cs173/sp2009/lectures/lect_18.pdf)
 
