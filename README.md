@@ -5,6 +5,8 @@
 - A data structure is a specialized format for organizing, processing, and storing data in a computer.
 - It defines the relationship between the data elements and the operations that can be performed on them.
 - Data structures are fundamental to designing efficient algorithms and are used to store, manage, and manipulate data in various ways depending on the requirements of the application.
+- - Additional resource [https://www.programiz.com/dsa/graph](https://www.programiz.com/dsa/graph)
+
 
 ### Why Is Merge Sort O(n * log(n))
 
@@ -19,8 +21,6 @@
 - Induction is an inference rule used in formal proofs, and is the foundation of most correctness proofs for computer programs
 - Weak induction a.k.a "normal induction" [https://www.math.umd.edu/~immortal/CMSC250/notes/weakandstrong.pdf](https://www.math.umd.edu/~immortal/CMSC250/notes/weakandstrong.pdf)
 - Strong induction ak.a course of values induction [https://courses.grainger.illinois.edu/cs173/sp2009/lectures/lect_18.pdf](https://courses.grainger.illinois.edu/cs173/sp2009/lectures/lect_18.pdf)
-
-
 
 
 ### Notes on Trees and Graph based DSA
