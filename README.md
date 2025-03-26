@@ -10,6 +10,17 @@
 
 [https://www.youtube.com/watch?v=alJswNJ4P3U&t=1815s](https://www.youtube.com/watch?v=alJswNJ4P3U&t=1815s)
 
+### Recurrence Relations analysis and master theorem
+
+[https://web.stanford.edu/class/archive/cs/cs161/cs161.1168/lecture3.pdf](https://web.stanford.edu/class/archive/cs/cs161/cs161.1168/lecture3.pdf)
+
+### Resources for Induction 
+
+- Weak induction a.k.a "normal induction" [https://www.math.umd.edu/~immortal/CMSC250/notes/weakandstrong.pdf](https://www.math.umd.edu/~immortal/CMSC250/notes/weakandstrong.pdf)
+- Strong induction ak.a course of values induction [https://courses.grainger.illinois.edu/cs173/sp2009/lectures/lect_18.pdf](https://courses.grainger.illinois.edu/cs173/sp2009/lectures/lect_18.pdf)
+
+
+
 
 ### Notes on Trees and Graph based DSA
 
