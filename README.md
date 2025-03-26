@@ -8,7 +8,7 @@
 
 ### Why Is Merge Sort O(n * log(n))
 
-![https://www.youtube.com/watch?v=alJswNJ4P3U&t=1815s](https://www.youtube.com/watch?v=alJswNJ4P3U&t=1815s)
+[https://www.youtube.com/watch?v=alJswNJ4P3U&t=1815s](https://www.youtube.com/watch?v=alJswNJ4P3U&t=1815s)
 
 
 ### Notes on Trees and Graph based DSA
