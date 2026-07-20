@@ -20,10 +20,19 @@ Advanced trees solve this by maintaining the *self balancing property*.
 - Red-Black Trees: **Self-balancing BST**. The **advantage** of Red Black Trees to BSTs is that they guarantee O(log n) time complexity for search, insert, and delete operations. **Java's TreeMap and TreeSet are built using Red-Black Trees.** 
 
 ![[BSTtime.png]]
+
+### When to use TreeMap, TreeSet.
+
+| **Collection Type** | **Key Ordering**                                        | **Performance**                             | **Notes / Purpose**                                                                                         |
+| ------------------- | ------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **HashMap**         | No order                                                | $O(1)$ for insert, delete, and lookup       | Unordered key-value pairs; fastest for general lookups                                                      |
+| **TreeMap**         | Sorted order (natural/comparator)                       | $O(\log n)$ operations using Red-Black Tree | Key-value pairs sorted by keys. TreeMap = Sorted HashMap with Red-Black Trees                               |
+| **TreeSet**         | Elements, *not keys*, sorted order (natural/comparator) | $O(\log n)$ operations using Red-Black Tree | Store unique individual elements sorted by elements. **Because it is a set, it does not allow duplicates.** |
+
 ## Motivation: Why Red Black Trees
 
 1. Guaranteed O(log n operations): The tree won't even degrade into a linked list because of Rule 5 (Black height rule)
-2. Designed for faster **insertions/deletions**. This is because they allow a little more imbalance and often fix violations using recoloring instead of many rotations.
+2. Designed for faster **insertions/deletions**. This is because they allow a little more imbalance and often fix violations using recoloring instead of many rotations. Red-Black trees **perform fewer rotations during insertions and deletions** compared to AVL trees. Also, the color property only requires 1 bit whereas AVL trees require storing an integer balance factor at each node.
 3. Predictability in backend engineering: Worst-case performance is bounded by O(log n).
 
 - Rules:
@@ -61,7 +70,6 @@ Search
 - Identical to BST
 Deletion
 - Standard BST deletion then "fix the tree"
-
 
 ---
 ## BSTs
