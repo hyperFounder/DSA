@@ -11,7 +11,7 @@
 - **Key Leetcode Problems:** _Validate Binary Search Tree, Binary Tree Level Order Traversal, Kth Largest Element in an Array, Merge K Sorted Lists_.
 
 ### DFS/BFS
-- BFS: Level order traversal.
+- BFS: Level order traversal. *The result of a BFS search on a graph/tree is a BFS spanning tree*.
 - Depth first search algorithms explore as deep as possible along each branch before backtracking. There are 3 primary forms of DFS which are mentioned below.
 
 1. Pre-order traversal (Root, left, right)
