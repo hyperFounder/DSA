@@ -1,4 +1,5 @@
 - A **tree** is a nonlinear hierarchical data structure consisting of nodes connected by edges.
+- **A tree is a connected graph that has no cycles.**
 - A basic BST works efficiently only when it remains balanced, and can degrade into linked lists if elements are inserted sequentially in sorted order, ruining their efficiency. 
 Insert: 10, 20, 30, 40, 50
 
