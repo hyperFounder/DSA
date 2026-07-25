@@ -31,6 +31,10 @@ These problems introduce graph traversals on 2D grids, topological sorting, stru
 
 * **[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)**
   * **Concepts:** BFS, Level-by-Level List Construction
+* **[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)**
+  * **Concepts:** DFS / In-order Traversal, BST Property Validation
+* **[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)**
+  * **Concepts:** Min-Heap / PriorityQueue, QuickSelect
 * **[2415. Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)**
   * **Concepts:** BFS (Level-Order Swap) / DFS (Two-Pointer Mirror Recursion), Tree Value Manipulation
 * **[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)**
@@ -60,6 +64,8 @@ These problems introduce graph traversals on 2D grids, topological sorting, stru
 
 These problems require combining traversal with dynamic programming, memoization, bidirectional search, complex state serialization, or heavy search space constraint pruning.
 
+* **[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)**
+  * **Concepts:** Min-Heap / PriorityQueue, Divide & Conquer
 * **[124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)**
   * **Concepts:** Advanced Tree DFS, Global State Tracking
 * **[297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)**
