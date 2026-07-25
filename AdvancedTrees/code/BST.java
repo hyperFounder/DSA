@@ -56,6 +56,7 @@ public class BST {
         return curr;
     }
 
+    // The smallest value will always be as far left as possible.
     private int findSmallestValue(Node node){
         return node.left == null ? node.data : findSmallestValue(node.left);
     }
