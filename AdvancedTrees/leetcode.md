@@ -31,7 +31,7 @@ These problems introduce graph traversals on 2D grids, topological sorting, stru
 
 * **[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)**
   * **Concepts:** BFS, Level-by-Level List Construction
- * **[2415. Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)**
+* **[2415. Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)**
   * **Concepts:** BFS (Level-Order Swap) / DFS (Two-Pointer Mirror Recursion), Tree Value Manipulation
 * **[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)**
   * **Concepts:** 2D Grid Traversal, DFS / BFS, Connected Components
