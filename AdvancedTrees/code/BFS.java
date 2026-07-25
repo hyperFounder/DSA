@@ -66,7 +66,7 @@ public class BFS {
     }
 
     // =========================================================================
-    // 2. GRAPH IMPLEMENTATION
+    // 2. GRAPH IMPLEMENTATION (STANDARD FLAT BFS)
     // =========================================================================
 
     static class GraphNode {
@@ -83,32 +83,31 @@ public class BFS {
         }
     }
 
-    public static List<List<Integer>> levelOrderGraph(GraphNode startNode) {
-        List<List<Integer>> result = new ArrayList<>();
+    /**
+     * Standard Graph BFS returning a flat order of visited nodes.
+     */
+    public static List<Integer> standardGraphBFS(GraphNode startNode) {
+        List<Integer> result = new ArrayList<>();
         if (startNode == null) return result;
 
         Queue<GraphNode> queue = new LinkedList<>();
-        Set<GraphNode> visited = new HashSet<>(); // Essential to handle cycles!
+        Set<GraphNode> visited = new HashSet<>();
 
+        // 1. Initialize queue and visited set with starting node
         queue.offer(startNode);
         visited.add(startNode);
 
+        // 2. Process elements sequentially without level snapshotting
         while (!queue.isEmpty()) {
-            int levelSize = queue.size();
-            List<Integer> currLevel = new ArrayList<>();
+            GraphNode curr = queue.poll();
+            result.add(curr.val);
 
-            for (int i = 0; i < levelSize; i++) {
-                GraphNode curr = queue.poll();
-                currLevel.add(curr.val);
-
-                for (GraphNode neighbor : curr.neighbors) {
-                    if (!visited.contains(neighbor)) {
-                        visited.add(neighbor);
-                        queue.offer(neighbor);
-                    }
+            for (GraphNode neighbor : curr.neighbors) {
+                if (!visited.contains(neighbor)) {
+                    visited.add(neighbor); // Mark visited BEFORE enqueuing
+                    queue.offer(neighbor);
                 }
             }
-            result.add(currLevel);
         }
         return result;
     }
@@ -130,9 +129,9 @@ public class BFS {
         System.out.println(treeLevels); // Output: [[10], [5, 15], [10]]
 
         // --- 2. Test Graph BFS ---
-        System.out.println("\n--- GRAPH LEVEL ORDER BFS ---");
-        
-        // Build a graph with a cycle: 1 -> 2, 1 -> 3, 2 -> 4, 3 -> 4, 4 -> 1 (Cycle!)
+        System.out.println("\n--- STANDARD GRAPH BFS ---");
+
+        // Build a graph with a cycle: 1 -> 2, 1 -> 3, 2 -> 4, 3 -> 4, 4 -> 1
         GraphNode g1 = new GraphNode(1);
         GraphNode g2 = new GraphNode(2);
         GraphNode g3 = new GraphNode(3);
@@ -142,9 +141,9 @@ public class BFS {
         g1.addNeighbor(g3);
         g2.addNeighbor(g4);
         g3.addNeighbor(g4);
-        g4.addNeighbor(g1); // Creates a cycle back to root!
+        g4.addNeighbor(g1); // Creates a cycle back to start
 
-        List<List<Integer>> graphLevels = levelOrderGraph(g1);
-        System.out.println(graphLevels); // Output: [[1], [2, 3], [4]]
+        List<Integer> graphOrder = standardGraphBFS(g1);
+        System.out.println(graphOrder); // Output: [1, 2, 3, 4]
     }
 }
