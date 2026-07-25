@@ -1,5 +1,6 @@
 # Ignore macOS system files
 .DS_Store
 .idea/
+DSA.iml
 # Ignore Obsidian directory
 .obsidian/
