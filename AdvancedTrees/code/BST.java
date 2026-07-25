@@ -1,6 +1,3 @@
-
-package org.example;
-
 public class BST {
     private Node root;
     private static class Node{
