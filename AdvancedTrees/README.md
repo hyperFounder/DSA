@@ -2,15 +2,15 @@
 
 - **Core Concepts:**
     
-    - Binary Trees & Recursion (DFS: Pre-order, In-order, Post-order; BFS: Level-order).
-    - Binary Search Trees (BST invariants and range queries).
+    - Binary Trees & Recursion (DFS: Pre-order, In-order, Post-order; BFS: Level-order). ✅
+    - Binary Search Trees (BST invariants and range queries). ✅
     - Heaps / Priority Queues (Min-Heap / Max-Heap implementations and streaming data).
         
 - **Java Specifics:** `PriorityQueue` defaults to a Min-Heap. Know how to pass custom `Comparator` lambdas.
     
 - **Key Leetcode Problems:** _Validate Binary Search Tree, Binary Tree Level Order Traversal, Kth Largest Element in an Array, Merge K Sorted Lists_.
 
-### DFS/BFS Graph traversals (Backtracking)
+### DFS/BFS Graph traversals (Backtracking) ✅
 https://www.youtube.com/watch?v=pcKY4hjDrxk&t=554s
 
 - BFS (**Queue)**: Level order traversal. *The result of a BFS search on a graph/tree is a BFS spanning tree*.
