@@ -28,7 +28,7 @@ https://www.youtube.com/watch?v=Hoixgm4-P4M (Quick Sort)
     - **Characteristics:** **Stable**. Highly recommended when sorting Linked Lists since linked lists do not require extra space for merging. **[148. Sort List](https://leetcode.com/problems/sort-list)** ✅
 
 - **Quick Sort**:
-    - Picks a **pivot** element and partitions the array so elements smaller than the pivot are on the left, and larger ones are on the right. Recursively applies to sub-arrays.
+    - Picks a **pivot** element and partitions the array so elements smaller than the pivot are on the left, and larger ones are on the right (Lomuto partition). Recursively applies to sub-arrays. 
     - **Time:** O(N log N) average/best, O(N²) worst-case (happens when the array is already sorted and a poor pivot like the last element is chosen).
     - **Space:** O(log N) space for the recursive call stack.
     - **Characteristics:** **Unstable**. Generally faster in practice for arrays due to better cache locality (in-place sorting).
