@@ -8,11 +8,11 @@ A curated collection of LeetCode problems covering Depth-First Search (DFS), Bre
 
 These problems focus on basic recursive traversal (DFS), level-by-level queue processing (BFS), and simple decision trees.
 
-* **[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)**
+* **[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)** ✅
   * **Concepts:** DFS (Recursion), Tree Height
-* **[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)**
+* **[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)** ✅
   * **Concepts:** DFS, Tree Manipulation
-* **[100. Same Tree](https://leetcode.com/problems/same-tree/)**
+* **[100. Same Tree](https://leetcode.com/problems/same-tree/)** ✅
   * **Concepts:** DFS, Simultaneous Tree Traversal
 * **[112. Path Sum](https://leetcode.com/problems/path-sum/)**
   * **Concepts:** DFS, Implicit Backtracking
@@ -29,7 +29,7 @@ These problems focus on basic recursive traversal (DFS), level-by-level queue pr
 
 These problems introduce graph traversals on 2D grids, topological sorting, structural tree manipulations, and explicit state-restoration backtracking (Combinations, Permutations, Subsets).
 
-* **[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)**
+* **[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)** ✅
   * **Concepts:** BFS, Level-by-Level List Construction
 * **[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)**
   * **Concepts:** DFS / In-order Traversal, BST Property Validation
