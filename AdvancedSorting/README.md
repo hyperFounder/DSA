@@ -24,7 +24,7 @@ https://www.youtube.com/watch?v=Hoixgm4-P4M (Quick Sort)
     - Divides the array into two halves, recursively sorts them, and then **merges** the two sorted halves back together.
     - **Time:** O(N log N) in all cases (Best, Average, Worst).
     - **Space:** O(N) auxiliary space needed for the temporary merge arrays.
-    - **Characteristics:** **Stable**. Highly recommended when sorting Linked Lists since linked lists do not require extra space for merging. **[148. Sort List](https://leetcode.com/problems/merge-sorted-array/](https://leetcode.com/problems/sort-list)**
+    - **Characteristics:** **Stable**. Highly recommended when sorting Linked Lists since linked lists do not require extra space for merging. **[148. Sort List](https://leetcode.com/problems/sort-list)**
 
 - **Quick Sort**:
     - Picks a **pivot** element and partitions the array so elements smaller than the pivot are on the left, and larger ones are on the right. Recursively applies to sub-arrays.
