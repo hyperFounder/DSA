@@ -32,6 +32,12 @@ https://www.youtube.com/watch?v=Hoixgm4-P4M (Quick Sort)
     - **Time:** O(N log N) average/best, O(N²) worst-case (happens when the array is already sorted and a poor pivot like the last element is chosen).
     - **Space:** O(log N) space for the recursive call stack.
     - **Characteristics:** **Unstable**. Generally faster in practice for arrays due to better cache locality (in-place sorting).
+ 
+- **Insertion Sort**:
+- Builds a final sorted array one item at a time by repeatedly taking the next element (the "key") and sliding it backward into its correct relative position among the already-sorted elements to its left.
+- **Time:** $O(N)$ best-case (when the array is already sorted), $O(N^2)$ average and worst-case (when the array is reverse-sorted).
+- **Space:** $O(1)$ auxiliary space (in-place sorting).
+- **Characteristics:** Stable. Highly efficient for small datasets or nearly sorted arrays (which is why high-performance engines like Java's Timsort use it as a fallback).
 
 - **Bucket / Counting Sort (Linear Time O(N))**:
     - When the range of potential values is bounded and relatively small (e.g., frequencies of elements in an array), you can map them to indices in a frequency/count array. This circumvents the O(N log N) mathematical limit of comparison-based sorting.
