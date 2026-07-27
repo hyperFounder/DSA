@@ -29,7 +29,7 @@ These problems introduce custom comparators, interval processing, divide & conqu
   * **Concepts:** Dutch National Flag Problem, In-Place 3-Way Partitioning
 * **[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)**
   * **Concepts:** Custom Comparator (Sorting by start time), Interval Merging
-* **[148. Sort List](https://leetcode.com/problems/sort-list/)**
+* **[148. Sort List](https://leetcode.com/problems/sort-list/)** ✅
   * **Concepts:** Merge Sort (Linked List), Fast/Slow Pointers, Divide & Conquer
 * **[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)**
   * **Concepts:** Bucket Sort (Linear Time), Min-Heap
