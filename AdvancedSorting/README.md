@@ -39,5 +39,17 @@ https://www.youtube.com/watch?v=Hoixgm4-P4M (Quick Sort)
     - **Space:** $O(1)$ auxiliary space (in-place sorting).
     - **Characteristics:** Stable. Highly efficient for small datasets or nearly sorted arrays (which is why high-performance engines like Java's Timsort use it as a fallback).
 
+- **Bubble Sort**:
+    - Repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The largest elements "bubble" up to the end of the array with each full pass.
+    - **Time:** $O(N)$ best-case (when optimized with a swap flag and the array is already sorted), $O(N^2)$ average and worst-case (when the array is reverse-sorted or randomly ordered).
+    - **Space:** $O(1)$ auxiliary space (in-place sorting).
+    - **Characteristics:** Stable. Highly inefficient for large datasets, but historically significant as the simplest sorting algorithm to conceptualize.
+
+- **Selection Sort**:
+    - Repeatedly iterates through the unsorted portion of the array to find the minimum element, then swaps it with the first unsorted position, gradually building a sorted region at the front.
+    - **Time:** $O(N^2)$ across all cases (best, average, and worst) because it always scans the remaining elements regardless of initial order.
+    - **Space:** $O(1)$ auxiliary space (in-place sorting).
+    - **Characteristics:** Unstable. Performs the minimum possible number of writes (at most $O(N)$ swaps) compared to other quadratic sorts, making it useful when memory write operations are costly.
+
 - **Bucket / Counting Sort (Linear Time O(N))**:
     - When the range of potential values is bounded and relatively small (e.g., frequencies of elements in an array), you can map them to indices in a frequency/count array. This circumvents the O(N log N) mathematical limit of comparison-based sorting.
