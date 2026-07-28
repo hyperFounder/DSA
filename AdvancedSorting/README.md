@@ -6,7 +6,7 @@
     - Non-comparison Sorting (Counting Sort, Bucket Sort, Radix Sort) - O(N) time complexity.
     - Concept of **Stability** (Does the algorithm preserve the relative order of equal elements?).
     - Time and Space Complexities (Understanding O(N log N) bounds and worst-case scenarios).
-    - In-place sorting: rearranges elements inside the original array, using only a constant amount of extra memory (typically O(1)).
+    - **In-place sorting:** rearranges elements inside the original array, using only a constant amount of extra memory (typically O(1)).
 
 - **Java Specifics:** 
     - `Arrays.sort(primitives)` uses Dual-Pivot Quicksort (Unstable).
