@@ -11,7 +11,7 @@
 - **Java Specifics:** 
     - `Arrays.sort(primitives)` uses Dual-Pivot Quicksort (Unstable).
     - `Arrays.sort(objects)` and `Collections.sort()` use **Timsort** (A hybrid of Merge Sort and Insertion Sort, which is Stable).
-    - Use `Collections.sort()` when you are working with collections that implement the List interface, such as ArrayList or LinkedList. If you are working with a raw array (e.g., int[] or Employee[]), you cannot use Collections.sort(); you must use Arrays.sort() instead.
+    - Use **`Collections.sort()`** when you are working with collections that implement the List interface, such as **ArrayList or LinkedList**. If you are working with a raw array (e.g., int[] or Employee[]), you cannot use Collections.sort(); you must use **Arrays.sort()** instead.
     - Object oriented sorting: Understand how to implement the `Comparable<T>` interface (`compareTo(T o)`) for natural ordering.
     - Custom sorting logic: Master passing `Comparator<T>` via lambda expressions.
       * Example: `Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));` to sort a 2D array by the first column.
