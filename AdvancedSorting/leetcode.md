@@ -8,9 +8,9 @@ A curated collection of LeetCode problems covering comparison-based sorting, non
 
 These problems focus on basic sorting applications, using built-in sort functions, or simple array manipulation resembling sort sub-routines (like merging).
 
-* **[88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)**
+* **[88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)** ✅
   * **Concepts:** Merge Step of Merge Sort, Two Pointers (Backwards)
-* **[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)**
+* **[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** ✅
   * **Concepts:** Array Sorting, Adjacent Element Comparison
 * **[169. Majority Element](https://leetcode.com/problems/majority-element/)**
   * **Concepts:** Array Sorting, Finding the Median
