@@ -141,7 +141,7 @@ public class BFS {
         g1.addNeighbor(g3);
         g2.addNeighbor(g4);
         g3.addNeighbor(g4);
-        g4.addNeighbor(g1); // Creates a cycle back to start
+        g4.addNeighbor(g1); // Creates a cycle back to start 
 
         List<Integer> graphOrder = standardGraphBFS(g1);
         System.out.println(graphOrder); // Output: [1, 2, 3, 4]
