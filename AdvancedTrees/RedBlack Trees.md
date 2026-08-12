@@ -21,13 +21,13 @@ Advanced trees solve this by maintaining the *self balancing property*.
 
 ![[BSTtime.png]]
 
-### When to use TreeMap, TreeSet.
-
-| **Collection Type** | **Key Ordering**                                        | **Performance**                             | **Notes / Purpose**                                                                                         |
+### When to use TreeMap, TreeSet, HashSet
+| **Collection Type** | **Key Ordering** | **Performance** | **Notes / Purpose** |
 | ------------------- | ------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| **HashMap**         | No order                                                | $O(1)$ for insert, delete, and lookup       | Unordered key-value pairs; fastest for general lookups                                                      |
-| **TreeMap**         | Sorted order (natural/comparator)                       | $O(\log n)$ operations using Red-Black Tree | Key-value pairs sorted by keys. TreeMap = Sorted HashMap with Red-Black Trees                               |
-| **TreeSet**         | Elements, *not keys*, sorted order (natural/comparator) | $O(\log n)$ operations using Red-Black Tree | Store unique individual elements sorted by elements. **Because it is a set, it does not allow duplicates.** |
+| **HashMap** | No order | $O(1)$ for insert, delete, and lookup | Unordered key-value pairs; fastest for general lookups |
+| **TreeMap** | Sorted order (natural/comparator) | $O(\log n)$ operations using Red-Black Tree | Key-value pairs sorted by keys. TreeMap = Sorted HashMap with Red-Black Trees |
+| **TreeSet** | Elements, *not keys*, sorted order (natural/comparator) | $O(\log n)$ operations using Red-Black Tree | Store unique individual elements sorted by elements. **Because it is a set, it does not allow duplicates.** |
+| **HashSet** | No order (elements, not keys) | $O(1)$ for insert, delete, and lookup | Store unique individual elements. Unordered; fastest for checking if an element exists. **Because it is a set, it does not allow duplicates.** |
 
 ## Motivation: Why Red Black Trees
 
