@@ -8,8 +8,6 @@
 - It defines the relationship between the data elements and the operations that can be performed on them.
 - Data structures are fundamental to designing efficient algorithms and are used to store, manage, and manipulate data in various ways depending on the requirements of the application.
 - - Additional resource [https://www.programiz.com/dsa/graph](https://www.programiz.com/dsa/graph)
- 
-- 
 
 ### Why Is Merge Sort O(n * log(n))
 
