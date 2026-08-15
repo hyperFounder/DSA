@@ -8,7 +8,7 @@ A curated collection of LeetCode problems covering Depth-First Search (DFS), Bre
 
 These problems focus on basic recursive traversal (DFS), level-by-level queue processing (BFS), and simple decision trees.
 
-* **[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)** ✅
+* **[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)** ✅     
   * **Concepts:** DFS (Recursion), Tree Height
 * **[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)** ✅
   * **Concepts:** DFS, Tree Manipulation
