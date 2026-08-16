@@ -12,7 +12,7 @@ These problems focus on basic sorting applications, using built-in sort function
   * **Concepts:** Merge Step of Merge Sort, Two Pointers (Backwards)
 * **[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** ✅
   * **Concepts:** Array Sorting, Adjacent Element Comparison
-* **[169. Majority Element](https://leetcode.com/problems/majority-element/)**
+* **[169. Majority Element](https://leetcode.com/problems/majority-element/)** ✅
   * **Concepts:** Array Sorting, Finding the Median
 * **[268. Missing Number](https://leetcode.com/problems/missing-number/)**
   * **Concepts:** Cyclic Sort (Implicit), Math / Bit Manipulation
