@@ -17,8 +17,7 @@
     - **`ArrayList`** is the default dynamic array. Backed by a resizable `Object[]`. Excellent for random access and appends; \(O(n)\) for middle insertions/deletions.
     - Primitive arrays avoid boxing and GC pressure. Prefer them on hot paths.
 
-- **Key LeetCode Problems:**  
-  *Valid Parentheses, Evaluate Reverse Polish Notation, Daily Temperatures, Sliding Window Maximum, Largest Rectangle in Histogram, Next Greater Element, Asteroid Collision, Trapping Rain Water*.
+- **Key LeetCode Problems:** Valid Parentheses, Evaluate Reverse Polish Notation, Daily Temperatures, Sliding Window Maximum, Largest Rectangle in Histogram, Next Greater Element, Asteroid Collision, Trapping Rain Water.
 
 ---
 
