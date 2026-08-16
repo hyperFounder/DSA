@@ -14,7 +14,7 @@ These problems focus on basic recursive traversal (DFS), level-by-level queue pr
   * **Concepts:** DFS, Tree Manipulation
 * **[100. Same Tree](https://leetcode.com/problems/same-tree/)** ✅
   * **Concepts:** DFS, Simultaneous Tree Traversal
-* **[112. Path Sum](https://leetcode.com/problems/path-sum/)**
+* **[112. Path Sum](https://leetcode.com/problems/path-sum/)** ✅
   * **Concepts:** DFS, Implicit Backtracking
 * **[637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)**
   * **Concepts:** BFS (Queue)
