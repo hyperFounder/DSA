@@ -1,31 +1,64 @@
-### Phase 1: Core Java Collections: Arrays and Stacks (Weeks 1–3)
-
+### Phase 1: Core Java Collections — Arrays and Stacks (Weeks 1–3)
 
 - **Core Concepts:**
-    - **Contiguous Memory:** Arrays require contiguous blocks of memory to store elements[cite: 1]. Storing primitives sequentially in flat arrays (like `int[]` or `double[]`) guarantees spatial locality, allowing the CPU to efficiently pre-fetch data into the L1/L2 cache[cite: 1].
-    - **LIFO (Last-In, First-Out):** Stacks process elements in a Last-In, First-Out order[cite: 1]. They are essential for tracking nested states, handling parsing, and executing Depth-First Search (DFS) traversals[cite: 1]. 
-    - **The Call Stack:** The JVM relies on a recursive call stack, which inherently dictates the space complexity for recursive algorithms like Quick Sort ($O(\log n)$)[cite: 1].
-    - **Monotonic Stacks:** Advanced stack patterns used to maintain elements in a specific order, which optimizes sequential data lookups[cite: 1].
+    - **Contiguous Memory:** Arrays store elements in a single continuous block. Primitive arrays (`int[]`, `double[]`, etc.) give excellent spatial locality and cache performance.
+    - **LIFO (Last-In, First-Out):** Stacks process the most recently added element first. Essential for nested structures, parsing, DFS, and backtracking.
+    - **The Call Stack:** The JVM uses a call stack for method invocations. Recursive algorithms’ space complexity is often determined by maximum recursion depth (e.g., Quick Sort average \(O(\log n)\)).
+    - **Monotonic Stacks:** Maintain elements in strictly increasing or decreasing order. Each element is pushed/popped at most once → turns many \(O(n^2)\) problems into \(O(n)\).
+    - **In-place vs. Dynamic:** Static arrays have fixed size and zero overhead. Dynamic arrays (`ArrayList`) resize automatically but pay a cost on growth and middle insertions/deletions.
 
 - **Java Specifics:**
-    - **Avoid the Legacy `Stack`:** In modern Java, you should always use the `Deque` interface (specifically `ArrayDeque`) instead of the legacy `Stack` class[cite: 1].
-    - **`ArrayList`:** A dynamic collection backed by internal resizing arrays[cite: 5]. It provides optimal performance for random access and read-heavy operations[cite: 5].
-    - **Sorting Primitives vs. Objects:** `Arrays.sort(primitives)` uses an unstable Dual-Pivot Quicksort algorithm[cite: 1]. In contrast, `Arrays.sort(objects)` and `Collections.sort()` use Timsort, which is a stable hybrid of Merge Sort and Insertion Sort[cite: 1, 5].
+    - Prefer **`ArrayDeque`** over the legacy `Stack` class. `Stack` is synchronized (unnecessary overhead) and has a poorer API. Use:
+      ```java
+      Deque<Integer> stack = new ArrayDeque<>();
+      stack.push(x);
+      int top = stack.pop();
+      ```
+    - **`ArrayList`** is the default dynamic array. Backed by a resizable `Object[]`. Excellent for random access and appends; \(O(n)\) for middle insertions/deletions.
+    - Primitive arrays avoid boxing and GC pressure. Prefer them on hot paths.
+    - Sorting reminder (relevant when combining with arrays):
+      - `Arrays.sort(primitives)` → Dual-Pivot Quicksort (unstable)
+      - `Arrays.sort(objects)` / `Collections.sort()` → TimSort (stable)
 
-- **Key LeetCode Problems:** *Valid Parentheses, Evaluate Reverse Polish Notation, Daily Temperatures, Sliding Window Maximum*[cite: 1].
+- **Key LeetCode Problems:**  
+  *Valid Parentheses, Evaluate Reverse Polish Notation, Daily Temperatures, Sliding Window Maximum, Largest Rectangle in Histogram, Next Greater Element, Asteroid Collision, Trapping Rain Water*.
 
 ---
 
-### Data Structure Explanations
+### Fundamental Structures
 
-- **Static Arrays (`T[]` or `int[]`)**:
-    - **Explanation:** Fixed-size structures holding elements contiguously in memory[cite: 1]. 
-    - **Characteristics:** They are highly cache-friendly and can eliminate object churn and garbage collection overhead if used with primitives on hot paths[cite: 1]. However, their size cannot be changed after initialization.
+- **Static Arrays (`T[]` or primitive arrays)**  
+  Fixed-size contiguous memory allocated at creation.  
+  - **Time:** \(O(1)\) random access and iteration.  
+  - **Space:** Exactly the size you allocate; no extra overhead for primitives.  
+  - **Characteristics:** Maximum cache friendliness. Cannot grow or shrink. Ideal for fixed buffers, lookup tables, and performance-critical loops.
 
-- **ArrayList (Dynamic Arrays)**:
-    - **Explanation:** Java's dynamic array implementation that automatically resizes its internal array as new elements are added[cite: 5].
-    - **Characteristics:** It provides exceptionally fast random access but is less efficient for frequent insertions or deletions in the middle of the collection[cite: 5]. 
+- **ArrayList (Dynamic Arrays)**  
+  Resizable array that grows (≈1.5×) when capacity is exceeded.  
+  - **Time:** \(O(1)\) amortized append, \(O(1)\) random access, \(O(n)\) insert/delete in the middle.  
+  - **Space:** \(O(n)\) with occasional extra capacity.  
+  - **Characteristics:** Default choice for most lists. Boxing cost when storing primitives. Good cache behavior on sequential access.
 
-- **Stacks (via `ArrayDeque`)**:
-    - **Explanation:** A collection designed to add and remove elements from the same end (LIFO)[cite: 1].
-    - **Characteristics:** `ArrayDeque` is the most highly recommended, high-performance class for stack behavior in modern Java development[cite: 1].
+- **Stacks via `ArrayDeque`**  
+  LIFO collection. Recommended concrete implementation is `ArrayDeque`.  
+  - **Time:** \(O(1)\) push, pop, peek.  
+  - **Space:** \(O(n)\).  
+  - **Characteristics:** Faster and cleaner than legacy `Stack`. Also works as a queue or deque. Perfect for DFS, expression evaluation, and monotonic-stack patterns.
+
+- **Monotonic Stack**  
+  Stack that keeps elements in monotonic order (increasing or decreasing).  
+  - When a new element breaks the order, pop until the order is restored.  
+  - Each element is pushed and popped at most once → \(O(n)\) overall.  
+  - Classic uses: Next Greater/Smaller Element, Daily Temperatures, Largest Rectangle in Histogram, Sliding Window Maximum (with deque).
+
+---
+
+### Quick Reference – When to Use What
+
+| Structure          | Best For                              | Avoid When                     |
+|--------------------|---------------------------------------|--------------------------------|
+| Primitive Array    | Fixed size, hot loops, cache critical | Size unknown or changes often  |
+| ArrayList          | General-purpose lists, random access  | Frequent middle insert/delete  |
+| ArrayDeque (Stack) | LIFO, DFS, parsing, monotonic patterns| Need random access by index    |
+
+---
