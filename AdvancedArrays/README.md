@@ -1,4 +1,5 @@
-### Core Java Collections: Arrays and Stacks
+### Phase 1: Core Java Collections: Arrays and Stacks (Weeks 1–3)
+
 
 - **Core Concepts:**
     - **Contiguous Memory:** Arrays require contiguous blocks of memory to store elements[cite: 1]. Storing primitives sequentially in flat arrays (like `int[]` or `double[]`) guarantees spatial locality, allowing the CPU to efficiently pre-fetch data into the L1/L2 cache[cite: 1].
