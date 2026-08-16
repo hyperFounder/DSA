@@ -18,7 +18,7 @@ These problems focus on basic recursive traversal (DFS), level-by-level queue pr
   * **Concepts:** DFS, Implicit Backtracking
 * **[637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)** ✅
   * **Concepts:** BFS (Queue)
-* **[257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)**
+* **[257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)** ✅
   * **Concepts:** DFS, State-Passing Backtracking
 * **[1863. Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)**
   * **Concepts:** Basic Subset Backtracking (Include / Exclude)
