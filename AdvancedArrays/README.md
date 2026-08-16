@@ -3,7 +3,6 @@
 - **Core Concepts:**
     - **Contiguous Memory:** Arrays store elements in a single continuous block. Primitive arrays (`int[]`, `double[]`, etc.) give excellent spatial locality and cache performance.
     - **LIFO (Last-In, First-Out):** Stacks process the most recently added element first. Essential for nested structures, parsing, DFS, and backtracking.
-    - **The Call Stack:** The JVM uses a call stack for method invocations. Recursive algorithms’ space complexity is often determined by maximum recursion depth (e.g., Quick Sort average \(O(\log n)\)).
     - **Monotonic Stacks:** Maintain elements in strictly increasing or decreasing order. Each element is pushed/popped at most once → turns many \(O(n^2)\) problems into \(O(n)\).
     - **In-place vs. Dynamic:** Static arrays have fixed size and zero overhead. Dynamic arrays (`ArrayList`) resize automatically but pay a cost on growth and middle insertions/deletions.
 
