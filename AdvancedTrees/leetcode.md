@@ -31,7 +31,7 @@ These problems introduce graph traversals on 2D grids, topological sorting, stru
 
 * **[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)** ✅
   * **Concepts:** BFS, Level-by-Level List Construction
-* **[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)**
+* **[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)** ✅
   * **Concepts:** DFS / In-order Traversal, BST Property Validation
 * **[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)**
   * **Concepts:** Min-Heap / PriorityQueue, QuickSelect
