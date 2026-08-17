@@ -7,8 +7,6 @@
     - Heaps / Priority Queues (Min-Heap / Max-Heap implementations and streaming data).
         
 - **Java Specifics:** `PriorityQueue` defaults to a Min-Heap. Know how to pass custom `Comparator` lambdas.
-
-    
 - **Key Leetcode Problems:** _Validate Binary Search Tree, Binary Tree Level Order Traversal, Kth Largest Element in an Array, Merge K Sorted Lists_.
 
 ### DFS/BFS Graph traversals (Backtracking) ✅
