@@ -1,6 +1,6 @@
 ### Phase 1: Advanced Trees, BSTs, and Heaps (Weeks 7–9)
 
-- **Core Concepts:**. 
+- **Core Concepts:**
     
     - Binary Trees & Recursion (DFS: Pre-order, In-order, Post-order; BFS: Level-order). ✅
     - Binary Search Trees (BST invariants and range queries). ✅
