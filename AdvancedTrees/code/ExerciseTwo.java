@@ -1,55 +1,47 @@
-import org.junit.jupiter.api.Test;
+import java.util.*;
 
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.TreeMap;
-import static org.junit.jupiter.api.Assertions.*;
+import java.math.BigDecimal;
 
 class Student{
-    private String name;
-    private double gpa;
+    String name;
+    BigDecimal gpa;
 
-    public Student(String name, double gpa) {
+    public Student(String name, BigDecimal gpa){
         this.name = name;
         this.gpa = gpa;
     }
-
-    public String getName() {
+    public String getName(){
         return name;
     }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public double getGpa() {
+    public BigDecimal getGpa(){
         return gpa;
     }
-
-    public void setGpa(double gpa) {
+    public void setName(String name){
+        this.name = name;
+    }
+    public void setGpa(BigDecimal gpa){
         this.gpa = gpa;
     }
+
+    public static Comparator<Student> comparator = new Comparator<Student>() {
+        @Override
+        public int compare(Student a, Student b) {
+            return b.getGpa().compareTo(a.getGpa());
+        }
+    };
 }
 
 public class ExerciseTwo{
-
     public static void main(String[] args) {
-        // To sort the Student object, we use a comparator. Tell Java how to sort the Student Object (By GPA)
-        Comparator<Student> comparator = Comparator.comparingDouble(Student::getGpa).reversed();
-
-        TreeMap<Student, String> map = new TreeMap<>(comparator);
-        map.put(new Student("John", 3.4), "Computer Science");
-        map.put(new Student("Alice", 4.5), "Computer Science");
-
-        for (Student s : map.keySet()){
-            System.out.println(s.getName() + ", GPA: " + s.getGpa());
+        Student studentOne = new Student("John", new BigDecimal(4.0));
+        Student studentTwo = new Student("Sussan", new BigDecimal(3.0));
+        TreeMap<Student, String> treeMap = new TreeMap<>(Student.comparator.reversed());
+        treeMap.put(studentOne, "Computer Science");
+        treeMap.put(studentTwo, "Computer Science");
+        for (Map.Entry<Student, String> entry : treeMap.entrySet()){
+            String name = entry.getKey().getName();
+            String value = entry.getValue();
+            System.out.println(name + "=" + value);
         }
-
-
-
-
     }
-
 }
-
-
