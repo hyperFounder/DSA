@@ -7,7 +7,7 @@
     - **In-place vs. Dynamic:** Static arrays have fixed size and zero overhead. Dynamic arrays (`ArrayList`) resize automatically but pay a cost on growth and middle insertions/deletions.
 
 - **Java Specifics:**
-    - Prefer **`ArrayDeque`** over the legacy `Stack` class. `Stack` is synchronized (unnecessary overhead) and has a poorer API. Use:
+    - Prefer **`ArrayDeque` (double ended queue) ** over the legacy `Stack` class. `Stack` is synchronized (unnecessary overhead) and has a poorer API. Use:
       ```java
       Deque<Integer> stack = new ArrayDeque<>();
       stack.push(x);
@@ -15,6 +15,7 @@
       ```
     - **`ArrayList`** is the default dynamic array. Backed by a resizable `Object[]`. Excellent for random access and appends; \(O(n)\) for middle insertions/deletions.
     - Primitive arrays avoid boxing and GC pressure. Prefer them on hot paths.
+    - **ArrayDequeue**: 
 
 - **Key LeetCode Problems:** Valid Parentheses, Evaluate Reverse Polish Notation, Daily Temperatures, Sliding Window Maximum, Largest Rectangle in Histogram, Next Greater Element, Asteroid Collision, Trapping Rain Water.
 
