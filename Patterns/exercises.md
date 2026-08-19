@@ -19,9 +19,6 @@ Task: Given a `List<Employee>` where each `Employee` has `name`, `department`, a
 ---
 
 ### Exercise 3: Abstract Classes vs. Interfaces (Design Pattern Practice)
-Task: Design a logging framework structure:
-1. Create an **interface** `Loggable` that declares a default method `logTimestamp()` and an abstract method `writeLog(String message)`.
-2. Create an **abstract class** `BaseLogger` that implements `Loggable`, maintains an instance variable for the log destination file path, and implements common constructor setup logic.
-3. Create a concrete subclass `FileLogger` extending `BaseLogger` that provides the specific implementation for `writeLog`.
-
-- **Goal**: Reinforce the architectural differences and correct use cases for abstract classes versus interfaces in enterprise Java design.
+1. Create an **interface** named `Doggable` that contains a default method `play()` and an abstract method `wagTail()`.
+2. Create an **abstract class** named `Animal` that implements `Doggable`, contains an instance variable `name`, a constructor to initialize it, and an abstract method `makeSound()`.
+3. Create a concrete class named `Dog` that extends `Animal` and implements the missing abstract methods (`makeSound()` and `wagTail()`).
