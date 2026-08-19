@@ -1,4 +1,4 @@
-public class AdvancedArrays {
+public class ExerciseOne {
 
     public static boolean isBalanced(String s){
         Deque<Character> stack = new ArrayDeque<>();
