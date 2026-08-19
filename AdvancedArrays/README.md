@@ -7,7 +7,7 @@
     - **In-place vs. Dynamic:** Static arrays have fixed size and zero overhead. Dynamic arrays (`ArrayList`) resize automatically but pay a cost on growth and middle insertions/deletions.
 
 - **Java Specifics:**
-    - Prefer **`ArrayDeque` (double ended queue) ** over the legacy `Stack` class. `Stack` is synchronized (unnecessary overhead) and has a poorer API. Use:
+    - Prefer **`ArrayDeque` (double ended queue)** over the legacy `Stack` class. `Stack` is synchronized (unnecessary overhead) and has a poorer API. Use:
       ```java
       Deque<Integer> stack = new ArrayDeque<>();
       stack.push(x);
