@@ -1,6 +1,6 @@
 ### Phase 1: Core Java Collections — Arrays and Stacks (Weeks 1–3)
 
-- **Core Concepts:**. 
+- **Core Concepts:**
     - **Contiguous Memory:** Arrays store elements in a single continuous block. Primitive arrays (`int[]`, `double[]`, etc.) give excellent spatial locality and cache performance.
     - **LIFO (Last-In, First-Out):** Stacks process the most recently added element first. Essential for nested structures, parsing, DFS, and backtracking.
     - **Monotonic Stacks:** Maintain elements in strictly increasing or decreasing order. Each element is pushed/popped at most once → turns many \(O(n^2)\) problems into \(O(n)\).
@@ -9,6 +9,7 @@
 - **Java Specifics:**
     - Prefer **`ArrayDeque` (double ended queue)** over the legacy `Stack` class. `Stack` is synchronized (unnecessary overhead) and has a poorer API. Use:
       ```java
+      
       Deque<Integer> stack = new ArrayDeque<>();
       stack.push(x);
       int top = stack.pop();
