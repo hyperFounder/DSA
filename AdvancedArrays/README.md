@@ -9,7 +9,6 @@
 - **Java Specifics:**
     - Prefer **`ArrayDeque` (double ended queue)** over the legacy `Stack` class. `Stack` is synchronized (unnecessary overhead) and has a poorer API. Use:
       ```java
-      
       Deque<Integer> stack = new ArrayDeque<>();
       stack.push(x);
       int top = stack.pop();
