@@ -8,7 +8,7 @@
     - Time and Space Complexities (Understanding O(N log N) bounds and worst-case scenarios).
     - **In-place sorting:** rearranges elements inside the original array, using only a constant amount of extra memory (typically O(1)).
 
-- **Java Specifics:** 
+- **Java Specifics:**
     - `Arrays.sort(primitives)` uses Dual-Pivot Quicksort (Unstable).
     - `Arrays.sort(objects)` and `Collections.sort()` use **Timsort** (A hybrid of Merge Sort and Insertion Sort, which is Stable).
     - Use **`Collections.sort()`** when you are working with collections that implement the List interface, such as **ArrayList or LinkedList**. If you are working with a raw array (e.g., int[] or Employee[]), you cannot use Collections.sort(); you must use **Arrays.sort()** instead.
