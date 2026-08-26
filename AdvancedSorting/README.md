@@ -1,4 +1,4 @@
-### Phase 2: Sorting Algorithms and Strategies (Weeks 10–11)
+### Phase 2: Sorting Algorithms and Strategies (Weeks 10–11) 
 
 - **Core Concepts:**
     - Comparison-based Sorting (Merge Sort, Quick Sort, Heap Sort).
