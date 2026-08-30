@@ -35,7 +35,7 @@ https://www.youtube.com/watch?v=Hoixgm4-P4M (Quick Sort)
     - **Characteristics:** **Unstable**. Generally faster in practice for arrays due to better cache locality (in-place sorting).
  
 - **Insertion Sort**:
-    - Builds a final sorted array one item at a time by repeatedly taking the next element (the "key") and sliding it backward into its correct relative position among the already-sorted elements to its left.
+    - Builds a final sorted array one item at a time by repeatedly taking the next element (the "key") and sliding it backward into its correct relative position among the already-sorted elements to its left. https://www.youtube.com/watch?v=Kg4bqzAqRBM
     - **Time:** $O(N)$ best-case (when the array is already sorted), $O(N^2)$ average and worst-case (when the array is reverse-sorted).
     - **Space:** $O(1)$ auxiliary space (in-place sorting).
     - **Characteristics:** Stable. Highly efficient for small datasets or nearly sorted arrays (which is why high-performance engines like Java's Timsort use it as a fallback).
