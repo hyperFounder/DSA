@@ -11,17 +11,19 @@ public class InsertionSort{
     public static void sort(int[] arr){
         if (arr == null || arr.length <=1) return;
 
-        for (int i = 1; i<arr.length; i++){
-            // Assume first element is already sorted.
-            int curr = arr[i];
+        for (int i = 1; i < a.length; i++) {
+            int key = a[i];  // The value we want to insert into the sorted prefix.
             int j = i - 1;
 
-            while (j>=0 && arr[j] > curr){
-                arr[j+1] = arr[j];
+            // Shift larger elements one position to the right
+            // until we find where 'key' belongs.
+            while (j >= 0 && a[j] > key) {
+                a[j + 1] = a[j];
                 j--;
             }
-            // Insert the key (element) in the correct position
-            arr[j+1] = curr;
+
+            // Place 'key' into the gap created by shifting.
+            a[j + 1] = key;
         }
     }
 }
