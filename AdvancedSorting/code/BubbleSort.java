@@ -1,11 +1,9 @@
 public class BubbleSort{
-
     public static void main(String[] args) {
         int[] data = {8, 5, 7, 3, 2};
         System.out.println("Original: " + java.util.Arrays.toString(data));
         sort(data);
         System.out.println("Sorted: " + java.util.Arrays.toString(data));
-
     }
     public static void sortOptimised(int[] arr){
         // If we complete an entire pass without swapping, then all numbers are in perfect order
@@ -32,12 +30,8 @@ public class BubbleSort{
             }
         }
     }
-
-
-
     public static void sort(int[] arr){
         if (arr == null || arr.length <=1) return;
-
         for (int i = 0; i<arr.length - 1; i++){
             // The largest element is on the end of array.
             // Optimisation 1. Replace "j<arr.length - 1" with j < arr.length - 1 - i
