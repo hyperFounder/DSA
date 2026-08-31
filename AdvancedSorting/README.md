@@ -52,5 +52,8 @@ https://www.youtube.com/watch?v=Hoixgm4-P4M (Quick Sort)
     - **Space:** $O(1)$ auxiliary space (in-place sorting).
     - **Characteristics:** Unstable. Performs the minimum possible number of writes (at most $O(N)$ swaps) compared to other quadratic sorts, making it useful when memory write operations are costly.
 
-- **Bucket / Counting Sort (Linear Time O(N))**:
+- **Bucket / Counting Sort (Linear Time O(N))**: Top k frequent elements
+    - https://leetcode.com/problems/top-k-frequent-elements/description/
     - When the range of potential values is bounded and relatively small (e.g., frequencies of elements in an array), you can map them to indices in a frequency/count array. This circumvents the O(N log N) mathematical limit of comparison-based sorting.
+    - **Either solve with a heap O(klogn) where k is the number of frequent elements or with Bucket sort O(n)**
+    - https://www.youtube.com/watch?v=YPTqKIgVk-k&t=238s
