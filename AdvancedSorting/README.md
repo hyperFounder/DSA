@@ -51,6 +51,17 @@ https://www.youtube.com/watch?v=Hoixgm4-P4M (Quick Sort)
     - **Time:** $O(N^2)$ across all cases (best, average, and worst) because it always scans the remaining elements regardless of initial order.
     - **Space:** $O(1)$ auxiliary space (in-place sorting).
     - **Characteristics:** Unstable. Performs the minimum possible number of writes (at most $O(N)$ swaps) compared to other quadratic sorts, making it useful when memory write operations are costly.
+ 
+- **Binary Search**:
+    - Searches for a target value in a **sorted array** by repeatedly comparing the target with the middle element and eliminating half of the remaining search space on each iteration. **The search range is halved after every comparison.**
+    - **Time:**
+        - Best Case: $O(1)$ (target is found at the middle element immediately).
+        - Average Case: $O(\log N)$.
+        - Worst Case: $O(\log N)$.
+    - **Space:**
+        - Iterative implementation: $O(1)$ auxiliary space.
+        - Recursive implementation: $O(\log N)$ due to the call stack.
+- ```Arrays.binarySearch() ```
 
 - **Bucket / Counting Sort (Linear Time O(N))**: Top k frequent elements: Heap or Bucket Sort.
     - https://leetcode.com/problems/top-k-frequent-elements/description/
