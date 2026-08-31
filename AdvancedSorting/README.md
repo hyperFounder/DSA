@@ -52,7 +52,7 @@ https://www.youtube.com/watch?v=Hoixgm4-P4M (Quick Sort)
     - **Space:** $O(1)$ auxiliary space (in-place sorting).
     - **Characteristics:** Unstable. Performs the minimum possible number of writes (at most $O(N)$ swaps) compared to other quadratic sorts, making it useful when memory write operations are costly.
  
-- **Binary Search**:
+- **Binary Search**: https://www.geeksforgeeks.org/java/arrays-binarysearch-java-examples-set-1/
     - Searches for a target value in a **sorted array** by repeatedly comparing the target with the middle element and eliminating half of the remaining search space on each iteration. **The search range is halved after every comparison.** ```Arrays.binarySearch() ```
     - **Time:**
         - Best Case: $O(1)$ (target is found at the middle element immediately).
