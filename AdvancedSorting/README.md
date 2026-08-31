@@ -53,7 +53,7 @@ https://www.youtube.com/watch?v=Hoixgm4-P4M (Quick Sort)
     - **Characteristics:** Unstable. Performs the minimum possible number of writes (at most $O(N)$ swaps) compared to other quadratic sorts, making it useful when memory write operations are costly.
  
 - **Binary Search**:
-    - Searches for a target value in a **sorted array** by repeatedly comparing the target with the middle element and eliminating half of the remaining search space on each iteration. **The search range is halved after every comparison.**
+    - Searches for a target value in a **sorted array** by repeatedly comparing the target with the middle element and eliminating half of the remaining search space on each iteration. **The search range is halved after every comparison.** ```Arrays.binarySearch() ```
     - **Time:**
         - Best Case: $O(1)$ (target is found at the middle element immediately).
         - Average Case: $O(\log N)$.
@@ -61,7 +61,6 @@ https://www.youtube.com/watch?v=Hoixgm4-P4M (Quick Sort)
     - **Space:**
         - Iterative implementation: $O(1)$ auxiliary space.
         - Recursive implementation: $O(\log N)$ due to the call stack.
-- ```Arrays.binarySearch() ```
 
 - **Bucket / Counting Sort (Linear Time O(N))**: Top k frequent elements: Heap or Bucket Sort.
     - https://leetcode.com/problems/top-k-frequent-elements/description/
