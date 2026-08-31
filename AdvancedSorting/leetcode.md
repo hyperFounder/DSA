@@ -14,9 +14,9 @@ These problems focus on basic sorting applications, using built-in sort function
   * **Concepts:** Array Sorting, Adjacent Element Comparison
 * **[169. Majority Element](https://leetcode.com/problems/majority-element/)** ✅
   * **Concepts:** Array Sorting, Finding the Median
-* **[268. Missing Number](https://leetcode.com/problems/missing-number/)**
+* **[268. Missing Number](https://leetcode.com/problems/missing-number/)** ✅
   * **Concepts:** Cyclic Sort (Implicit), Math / Bit Manipulation
-* **[977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)**
+* **[977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)** ✅
   * **Concepts:** Two Pointers, Merging two sorted segments
 
 ---
