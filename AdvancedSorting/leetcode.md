@@ -25,7 +25,7 @@ These problems focus on basic sorting applications, using built-in sort function
 
 These problems introduce custom comparators, interval processing, divide & conquer sorting (Merge Sort / Quick Sort), and non-comparison sorting techniques (Bucket Sort).
 
-* **[75. Sort Colors](https://leetcode.com/problems/sort-colors/)**✅
+* **[75. Sort Colors](https://leetcode.com/problems/sort-colors/)** ✅
   * **Concepts:** Dutch National Flag Problem, In-Place 3-Way Partitioning
 * **[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)**
   * **Concepts:** Custom Comparator (Sorting by start time), Interval Merging
