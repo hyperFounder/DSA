@@ -8,13 +8,13 @@ A curated collection of LeetCode problems covering comparison-based sorting, non
 
 These problems focus on basic sorting applications, using built-in sort functions, or simple array manipulation resembling sort sub-routines (like merging).
 
-* **[88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)** ✅
+* **[88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)** ✅✅
   * **Concepts:** Merge Step of Merge Sort, Two Pointers (Backwards)
-* **[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** ✅
+* **[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** ✅✅
   * **Concepts:** Array Sorting, Adjacent Element Comparison
-* **[169. Majority Element](https://leetcode.com/problems/majority-element/)** ✅
+* **[169. Majority Element](https://leetcode.com/problems/majority-element/)** ✅✅
   * **Concepts:** Array Sorting, Finding the Median
-* **[268. Missing Number](https://leetcode.com/problems/missing-number/)** ✅
+* **[268. Missing Number](https://leetcode.com/problems/missing-number/)** ✅✅
   * **Concepts:** Cyclic Sort (Implicit), Math / Bit Manipulation
 * **[977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)** ✅
   * **Concepts:** Two Pointers, Merging two sorted segments
@@ -29,7 +29,7 @@ These problems introduce custom comparators, interval processing, divide & conqu
   * **Concepts:** Dutch National Flag Problem, In-Place 3-Way Partitioning
 * **[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)**
   * **Concepts:** Custom Comparator (Sorting by start time), Interval Merging
-* **[148. Sort List](https://leetcode.com/problems/sort-list/)** ✅
+* **[148. Sort List](https://leetcode.com/problems/sort-list/)** ✅✅
   * **Concepts:** Merge Sort (Linked List), Fast/Slow Pointers, Divide & Conquer
 * **[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)**
   * **Concepts:** Bucket Sort (Linear Time), Min-Heap
