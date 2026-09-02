@@ -8,6 +8,20 @@ public class InsertionSort{
 
     }
 
+    // Insertion sort: Insert the key a[i] into sorted array a[0:i-1]
+    public static void sortMethodTwo(int[] nums) {
+        for (int i = 1; i<nums.length; i++){
+            for (int j = 0; j<i; j++){
+                if (nums[i] < nums[j]){
+                    // swap
+                    int temp = nums[i];
+                    nums[i] = nums[j];
+                    nums[j] = temp;
+                }
+            }
+        }
+    }
+
     public static void sort(int[] arr){
         if (arr == null || arr.length <=1) return;
 
