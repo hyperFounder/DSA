@@ -31,7 +31,7 @@ These problems introduce custom comparators, interval processing, divide & conqu
   * **Concepts:** Custom Comparator (Sorting by start time), Interval Merging
 * **[148. Sort List](https://leetcode.com/problems/sort-list/)** ✅✅
   * **Concepts:** Merge Sort (Linked List), Fast/Slow Pointers, Divide & Conquer
-* **[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)**
+* **[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)** ✅✅
   * **Concepts:** Bucket Sort (Linear Time), Min-Heap
 * **[179. Largest Number](https://leetcode.com/problems/largest-number/)**
   * **Concepts:** Custom String Comparator, Lexicographical Sorting
