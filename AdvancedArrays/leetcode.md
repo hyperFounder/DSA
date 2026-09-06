@@ -20,9 +20,9 @@ These problems focus on basic array iteration, hash-based duplicate detection, i
   * **Concepts:** Array traversal, Single-pass minimum element tracking.
 * **[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** ✅✅
   * **Concepts:** Frequency counting, duplicate detection.
-* **[232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)**
+* **[232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)** ✅
   * **Concepts:** Two Stacks, LIFO to FIFO behavior conversion.
-* **[1472. Design Browser History]([https://leetcode.com/problems/implement-queue-using-stacks/](https://leetcode.com/problems/design-browser-history/))**
+* **[1472. Design Browser History](https://leetcode.com/problems/design-browser-history/)** ✅
   * **Concepts:** Two Stacks, LIFO to FIFO behavior conversion.
 
 ---
