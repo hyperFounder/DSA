@@ -22,6 +22,8 @@ These problems focus on basic array iteration, hash-based duplicate detection, i
   * **Concepts:** Frequency counting, duplicate detection.
 * **[232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)**
   * **Concepts:** Two Stacks, LIFO to FIFO behavior conversion.
+* **[1472. Design Browser History]([https://leetcode.com/problems/implement-queue-using-stacks/](https://leetcode.com/problems/design-browser-history/))**
+  * **Concepts:** Two Stacks, LIFO to FIFO behavior conversion.
 
 ---
 
