@@ -43,7 +43,7 @@ These problems introduce custom stack design, monotonic stack patterns, advanced
   * **Concepts:** Contiguous array scan, Kadane's Algorithm.
 * **[71. Simplify Path](https://leetcode.com/problems/simplify-path/)**
   * **Concepts:** LIFO (Stack), Canonical string parsing, Directory state resolution.
-* **[150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)**
+* **[150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)** ✅
   * **Concepts:** LIFO (Stack), evaluating mathematical expressions, utilizing Deque.
 * **[155. Min Stack](https://leetcode.com/problems/min-stack/)**
   * **Concepts:** Stack Design, Auxiliary stack state tracking.
