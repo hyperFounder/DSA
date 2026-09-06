@@ -32,6 +32,7 @@
 
 ### Exercise 4: Browser History (`ArrayDeque` as Twin Stacks): $O(n)$ approach using Two stacks
 - https://www.thealgorists.com/LLD/WebBrowserHistory
+- https://leetcode.com/problems/design-browser-history/
 
 
 **Task:** Model a browser's back and forward navigation with a `BrowserHistory` class holding a current `String url` plus two `ArrayDeque<String>` fields named `back` and `forward`.
