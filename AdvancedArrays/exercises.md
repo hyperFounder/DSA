@@ -30,7 +30,10 @@
 
 * **Goal:** Leverage the bidirectional (Double-Ended Queue) capabilities of `ArrayDeque` to easily manipulate and evaluate elements at both ends of a collection.
 
-### Exercise 4: Browser History (`ArrayDeque` as Twin Stacks)
+### Exercise 4: Browser History (`ArrayDeque` as Twin Stacks): $O(n)$ approach using Two stacks
+- https://www.thealgorists.com/LLD/WebBrowserHistory
+
+
 **Task:** Model a browser's back and forward navigation with a `BrowserHistory` class holding a current `String url` plus two `ArrayDeque<String>` fields named `back` and `forward`.
 1. Write `visit(String url)`. Push the current URL onto `back`, set the new current URL, and clear `forward` entirely.
 2. Write `back()`. If `back` is empty, return the current URL unchanged. Otherwise push current onto `forward` and pop from `back`.
