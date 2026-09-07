@@ -24,6 +24,8 @@ These problems focus on basic array iteration, hash-based duplicate detection, i
   * **Concepts:** Two Stacks, LIFO to FIFO behavior conversion.
 * **[1472. Design Browser History](https://leetcode.com/problems/design-browser-history/)** ✅
   * **Concepts:** Two Stacks, LIFO to FIFO behavior conversion.
+* **[1169. Invalid Transactions](https://leetcode.com/problems/invalid-transactions/description/)** ✅
+  * **Concepts:** NavigableMap, nested maps, records.
 
 ---
 
