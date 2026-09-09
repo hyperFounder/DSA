@@ -1,4 +1,4 @@
-public class BubbleSort{
+public class BubbleSort {
     public static void main(String[] args) {
         int[] data = {8, 5, 7, 3, 2};
         System.out.println("Original: " + java.util.Arrays.toString(data));
