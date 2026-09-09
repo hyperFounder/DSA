@@ -1,4 +1,4 @@
-public class SelectionSort {
+public class SelectionSort{
     public static void selectionSort(int[] arr){
         for (int i=0; i<arr.length-1; i++){
             // Find minimum element in the unsorted array
