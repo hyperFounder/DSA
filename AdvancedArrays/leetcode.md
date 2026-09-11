@@ -10,19 +10,19 @@ These problems focus on basic array iteration, hash-based duplicate detection, i
 
 * **[1. Two Sum](https://leetcode.com/problems/two-sum/)** ✅✅
   * **Concepts:** Array traversal, hashing for constant-time lookups.
-* **[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)** ✅✅
+* **[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)** ✅✅✅
   * **Concepts:** LIFO (Stack), tracking nested states, string parsing.
-* **[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)** ✅
+* **[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)** ✅✅
   * **Concepts:** String parsing, Character arrays, Sorting.
-* **[26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)** ✅✅
+* **[26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)** ✅✅✅
   * **Concepts:** Two Pointers, In-place array manipulation.
 * **[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)** ✅✅
   * **Concepts:** Array traversal, Single-pass minimum element tracking.
-* **[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** ✅✅
+* **[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** ✅✅✅
   * **Concepts:** Frequency counting, duplicate detection.
-* **[232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)** ✅
+* **[232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)** ✅✅
   * **Concepts:** Two Stacks, LIFO to FIFO behavior conversion.
-* **[1472. Design Browser History](https://leetcode.com/problems/design-browser-history/)** ✅
+* **[1472. Design Browser History](https://leetcode.com/problems/design-browser-history/)** ✅✅
   * **Concepts:** Two Stacks, LIFO to FIFO behavior conversion.
 * **[1169. Invalid Transactions](https://leetcode.com/problems/invalid-transactions/description/)** ✅
   * **Concepts:** NavigableMap, nested maps, records.
