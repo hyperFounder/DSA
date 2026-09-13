@@ -37,7 +37,7 @@ These problems introduce custom stack design, monotonic stack patterns, advanced
   * **Concepts:** Array boundary scanning, Converging Two Pointers.
 * **[735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)** ✅
   * **Concepts:** LIFO (Stack), simulation of collisions, handling directional movement.
-* **[15. 3Sum](https://leetcode.com/problems/3sum/)**
+* **[15. 3Sum](https://leetcode.com/problems/3sum/)** ✅
   * **Concepts:** Linear scans, Two Pointers (converging from ends).
 * **[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)**
   * **Concepts:** Array traversal, string manipulation, mapping relationships.
