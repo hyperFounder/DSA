@@ -35,7 +35,7 @@ These problems introduce custom stack design, monotonic stack patterns, advanced
 
 * **[11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)** ✅✅
   * **Concepts:** Array boundary scanning, Converging Two Pointers.
-* **[735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)**
+* **[735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)** ✅
   * **Concepts:** LIFO (Stack), simulation of collisions, handling directional movement.
 * **[15. 3Sum](https://leetcode.com/problems/3sum/)**
   * **Concepts:** Linear scans, Two Pointers (converging from ends).
