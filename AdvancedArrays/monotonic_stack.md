@@ -18,9 +18,9 @@ Name which one you need before writing code.
 ## Problems
 
 ### Start here
-- [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
+- [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) ✅
 - [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) - circular, loop the array twice with modulo
-- [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) - same algorithm, asks for distance instead of value
+- [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) - same algorithm, asks for distance instead of value ✅
 - [901. Online Stock Span](https://leetcode.com/problems/online-stock-span/) - previous greater, streaming
 
 ### Histogram family (the reason this pattern matters)
