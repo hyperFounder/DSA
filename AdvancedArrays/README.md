@@ -40,7 +40,10 @@
   - **Space:** \(O(n)\).  
   - **Characteristics:** Faster and cleaner than legacy `Stack`. Also works as a queue or deque. Perfect for DFS, expression evaluation, and monotonic-stack patterns.
 
-- **Monotonic Stack**  
+- **Monotonic Stack**
+
+https://www.youtube.com/watch?v=DtJVwbbicjQ&t=202s
+
   Stack that keeps elements in monotonic order (increasing or decreasing).  
   - When a new element breaks the order, pop until the order is restored.  
   - Each element is pushed and popped at most once → \(O(n)\) overall.  
