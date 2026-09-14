@@ -33,18 +33,17 @@ public class SelectionSort {
 
     public static void sort(int[] arr){
         // find smallest element in the unsorted array
-        for(int i = 0; i<arr.length-1; i++){
+        for (int i = 0; i<arr.length; i++){
             int minIndex = i;
-            for(int j = i + 1; j<arr.length; j++){
+            for (int j =i+1; j<arr.length; j++){
                 if (arr[j] < arr[minIndex]){
-                    // Found minimum
                     minIndex = j;
                 }
             }
-            // swap the minimum element with the first element in the unsorted part
+            // Swap minimum element with the first element of the unsorted part
             if (minIndex != i){
                 int temp = arr[i];
-                arr[i]= arr[minIndex];
+                arr[i] = arr[minIndex];
                 arr[minIndex] = temp;
             }
         }

@@ -84,11 +84,13 @@ public class BubbleSort{
 
 
     public static void sort(int[] arr){
-        if (arr == null || arr.length <= 1) return;
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = 0; j < arr.length - 1 - i; j++) {
+        if (arr == null || arr.length <=1) return;
+        for (int i = 0; i<arr.length - 1; i++){
+            // The largest element is on the end of array.
+            // Optimisation 1. Replace "j<arr.length - 1" with j < arr.length - 1 - i
+            for (int j = 0; j<arr.length - 1 - i; j++){
                 if (arr[j] > arr[j+1]){
-                    // swapp
+                    // swap
                     int temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;

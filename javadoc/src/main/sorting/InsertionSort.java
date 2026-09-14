@@ -12,20 +12,14 @@ public class InsertionSort{
     }
 
     public static void insertionSort(int[] a){
-
-        for (int i = 1; i < a.length; i++) {
-            int key = a[i];  // The value we want to insert into the sorted prefix.
-            int j = i - 1;
-
-            // Shift larger elements one position to the right
-            // until we find where 'key' belongs.
-            while (j >= 0 && a[j] > key) {
-                a[j + 1] = a[j];
-                j--;
+        for (int i = 0; i<a.length; i++){
+            for (int j = 0; j<i; j++){
+                if (a[i] < a[j]){
+                    int temp = a[i];
+                    a[i] = a[j];
+                    a[j] = temp;
+                }
             }
-
-            // Place 'key' into the gap created by shifting.
-            a[j + 1] = key;
         }
     }
 }

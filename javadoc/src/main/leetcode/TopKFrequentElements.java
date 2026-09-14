@@ -1,41 +1,48 @@
 package main.leetcode;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class TopKFrequentElements {
 
-
-    public static int[] topKFrequent(int[] nums, int k){
-        // Declare an array of integer lists
-        List<Integer>[] bucket = new List[nums.length + 1];
-
-        HashMap<Integer, Integer> frequencyMap = new HashMap<Integer, Integer>();
-        for (int n : nums){
-            frequencyMap.put(n, frequencyMap.getOrDefault(n, 0) + 1);
-        }
-        for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()){
-            System.out.println(entry.getKey() + " " + entry.getValue());
-            if (bucket[entry.getValue()] == null){
-                bucket[entry.getValue()] = new ArrayList<>();
-            }
-            bucket[entry.getValue()].add(entry.getKey());
+    public static int[] topKFrequent(int[] arr, int k){
+        Map<Integer, Integer> map = new HashMap<>();
+        for(int i = 0;  i<arr.length; i++){
+            map.put(arr[i], map.getOrDefault(arr[i], 0)+1);
         }
 
-        List<Integer> result = new ArrayList<>();
+        List<Integer> sortedByVal = map.entrySet()
+                .stream()
+                .sorted(new Comparator<Map.Entry<Integer, Integer>>() {
+                    @Override
+                    public int compare(Map.Entry<Integer, Integer> o1, Map.Entry<Integer, Integer> o2) {
+                        // Reverse order
+                        if (o1.getValue() > o2.getValue()){
+                            return -1;
+                        } else if (o1.getValue() < o2.getValue()){
+                            return 1;
+                        } else{
+                            return 0;
+                        }
+                    }
+                })
+                .map(Map.Entry::getKey)
+                .limit(k)
+                .collect(Collectors.toList());
 
-        for(int i =bucket.length-1; i>=0 && result.size() < k; i--){
-            if (bucket[i] != null){
-                result.addAll(bucket[i]);
-            }
+        System.out.println(sortedByVal);
+
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()){
+            System.out.println("key: " + entry.getKey());
+            System.out.println("value: " + entry.getValue());
         }
-        return result.stream().mapToInt(i->i).toArray();
+
+        return sortedByVal.stream().mapToInt(i->i).toArray();
+
     }
 
     public static void main(String[] args) {
-        int[] nums = {1,1,1,2,2,3};
-        int k = 2;
-        int[] result = topKFrequent(nums, k);
-        System.out.println(Arrays.toString(result));
-
+//        System.out.println(Arrays.toString(topKFrequent(new int[]{1,1,1,2,2,3}, 2)));
+        System.out.println(Arrays.toString(topKFrequent(new int[]{1,2,1,2,1,2,3,1,3,2}, 2)));
     }
 }
