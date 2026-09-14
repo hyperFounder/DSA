@@ -18,31 +18,31 @@ Name which one you need before writing code.
 ## Problems
 
 ### Start here
-- 496. Next Greater Element I
-- 503. Next Greater Element II - circular, loop the array twice with modulo
-- 739. Daily Temperatures - same algorithm, asks for distance instead of value
-- 901. Online Stock Span - previous greater, streaming
+- [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
+- [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) - circular, loop the array twice with modulo
+- [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) - same algorithm, asks for distance instead of value
+- [901. Online Stock Span](https://leetcode.com/problems/online-stock-span/) - previous greater, streaming
 
 ### Histogram family (the reason this pattern matters)
-- 84. Largest Rectangle in Histogram - the boss fight, needs previous *and* next smaller
-- 85. Maximal Rectangle - 84 applied row by row
-- 42. Trapping Rain Water - solvable with a stack or two pointers, do both
+- [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) - the boss fight, needs previous *and* next smaller
+- [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) - 84 applied row by row
+- [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) - solvable with a stack or two pointers, do both
 
 ### Subarray contribution
-- 907. Sum of Subarray Minimums - count how many subarrays each element dominates
-- 2104. Sum of Subarray Ranges
-- 1856. Maximum Subarray Min-Product
+- [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) - count how many subarrays each element dominates
+- [2104. Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)
+- [1856. Maximum Subarray Min-Product](https://leetcode.com/problems/maximum-subarray-min-product/)
 
 ### Lexicographic / construction
-- 316. Remove Duplicate Letters
-- 402. Remove K Digits - easier, do it before 316
-- 1673. Find the Most Competitive Subsequence
-- 321. Create Maximum Number
+- [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)
+- [402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/) - easier, do it before 316
+- [1673. Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)
+- [321. Create Maximum Number](https://leetcode.com/problems/create-maximum-number/)
 
 ### Other
-- 853. Car Fleet - sort, then stack
-- 1019. Next Greater Node In Linked List
-- 456. 132 Pattern - stack used backwards, genuinely tricky
+- [853. Car Fleet](https://leetcode.com/problems/car-fleet/)
+- [1019. Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)
+- [456. 132 Pattern](https://leetcode.com/problems/132-pattern/) - stack used backwards, genuinely tricky
 
 ## Suggested path
 
