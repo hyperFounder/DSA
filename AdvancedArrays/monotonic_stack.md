@@ -1,4 +1,4 @@
-# Monotonic Stack
+# Monotonic Stack 
 
 Answers one shape of question: **for each element, find the nearest element to its left or right that is bigger/smaller.** Whenever you catch yourself writing a nested loop that scans outward looking for the first thing satisfying a comparison, that's the signal.
 
