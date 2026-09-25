@@ -29,13 +29,13 @@ Because the fast pointer moves twice as quickly, the two pointers eventually rev
 
 These problems introduce the basic Fast & Slow Pointer pattern.
 
-* **[876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)**
+* **[876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)** ✅
   * **Concepts:** Find Middle, Fast & Slow Pointers
 
-* **[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)**
+* **[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)** ✅
   * **Concepts:** Floyd's Cycle Detection, Fast & Slow Pointers
 
-* **[160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)**
+* **[160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)** ✅
   * **Concepts:** Two Pointers (Pointer Switching)
 
 * **[234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)**
