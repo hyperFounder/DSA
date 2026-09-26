@@ -59,7 +59,7 @@ These problems combine Fast & Slow Pointers with reversal, merging, and divide-a
 * **[148. Sort List](https://leetcode.com/problems/sort-list/)** ✅
   * **Concepts:** Merge Sort, Find Middle, Divide & Conquer
 
-* **[61. Rotate List](https://leetcode.com/problems/rotate-list/)**, **[189. Rotate Array](https://leetcode.com/problems/rotate-list/)**
+* **[61. Rotate List](https://leetcode.com/problems/rotate-list/)**, **[189. Rotate Array](https://leetcode.com/problems/rotate-list/)** ✅
   * **Concepts:** Two Pointers, Circular Linked List
 
 * **[86. Partition List](https://leetcode.com/problems/rotate-array/)**
