@@ -56,7 +56,7 @@ These problems combine Fast & Slow Pointers with reversal, merging, and divide-a
 * **[143. Reorder List](https://leetcode.com/problems/reorder-list/)** ✅
   * **Concepts:** Find Middle, Reverse List, Merge Lists
 
-* **[148. Sort List](https://leetcode.com/problems/sort-list/)**
+* **[148. Sort List](https://leetcode.com/problems/sort-list/)** ✅
   * **Concepts:** Merge Sort, Find Middle, Divide & Conquer
 
 * **[61. Rotate List](https://leetcode.com/problems/rotate-list/)**
