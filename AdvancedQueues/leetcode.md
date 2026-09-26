@@ -12,7 +12,7 @@ A curated collection of LeetCode problems covering FIFO queues, BFS, deques and 
 
 These problems focus on core queue mechanics, basic linked list pointer rewiring, and simple heap usage with Java's built-in `PriorityQueue`.
 
-* **[232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)**
+* **[232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)** ✅
   * **Concepts:** FIFO vs LIFO, Two Stacks, Amortized O(1)
 * **[225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)**
   * **Concepts:** Queue Rotation, FIFO to LIFO Conversion
