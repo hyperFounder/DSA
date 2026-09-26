@@ -22,7 +22,7 @@ These problems focus on core queue mechanics, basic linked list pointer rewiring
   * **Concepts:** Queue Simulation, Detecting a Stuck Loop
 * **[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)** ✅
   * **Concepts:** Three-Pointer Reversal (prev, curr, next), Recursion
-* **[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)**
+* **[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)** ✅
   * **Concepts:** Dummy Head Node, Two Pointers
 * **[1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)**
   * **Concepts:** Max-Heap via `Comparator.reverseOrder()`
