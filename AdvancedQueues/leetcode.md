@@ -20,14 +20,10 @@ These problems focus on core queue mechanics, basic linked list pointer rewiring
   * **Concepts:** Sliding Time Window, Evicting from the Front of a Queue
 * **[1700. Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)**
   * **Concepts:** Queue Simulation, Detecting a Stuck Loop
-* **[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)**
+* **[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)** ✅
   * **Concepts:** Three-Pointer Reversal (prev, curr, next), Recursion
 * **[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)**
   * **Concepts:** Dummy Head Node, Two Pointers
-* **[876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)**
-  * **Concepts:** Fast/Slow Pointers
-* **[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)**
-  * **Concepts:** Floyd's Tortoise and Hare
 * **[1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)**
   * **Concepts:** Max-Heap via `Comparator.reverseOrder()`
 * **[703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)**
