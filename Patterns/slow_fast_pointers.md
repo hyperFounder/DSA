@@ -47,13 +47,13 @@ These problems introduce the basic Fast & Slow Pointer pattern.
 
 These problems combine Fast & Slow Pointers with reversal, merging, and divide-and-conquer techniques.
 
-* **[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)**
+* **[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)** ✅
   * **Concepts:** Two Pointers (Fixed Gap)
 
-* **[142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)**
+* **[142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)** ✅
   * **Concepts:** Floyd's Algorithm, Find Cycle Entrance
 
-* **[143. Reorder List](https://leetcode.com/problems/reorder-list/)**
+* **[143. Reorder List](https://leetcode.com/problems/reorder-list/)** ✅
   * **Concepts:** Find Middle, Reverse List, Merge Lists
 
 * **[148. Sort List](https://leetcode.com/problems/sort-list/)**
