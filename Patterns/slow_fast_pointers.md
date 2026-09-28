@@ -35,7 +35,7 @@ These problems introduce the basic Fast & Slow Pointer pattern.
 * **[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)** ✅✅
   * **Concepts:** Floyd's Cycle Detection, Fast & Slow Pointers
 
-* **[160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)** ✅
+* **[160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)** ✅✅
   * **Concepts:** Two Pointers (Pointer Switching)
 
 * **[234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)** ✅
