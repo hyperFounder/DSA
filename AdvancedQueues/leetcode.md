@@ -20,7 +20,7 @@ These problems focus on core queue mechanics, basic linked list pointer rewiring
   * **Concepts:** Sliding Time Window, Evicting from the Front of a Queue
 * **[1700. Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)**
   * **Concepts:** Queue Simulation, Detecting a Stuck Loop
-* **[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)** ✅
+* **[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)** ✅✅
   * **Concepts:** Three-Pointer Reversal (prev, curr, next), Recursion
 * **[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)** ✅
   * **Concepts:** Dummy Head Node, Two Pointers
