@@ -17,7 +17,7 @@ Because the fast pointer moves twice as quickly, the two pointers eventually rev
 
 - Find the middle of a linked list
 - Detect if a linked list contains a cycle
-- Find the starting node of a cycle
+- Find the starting node of a cycle 
 - Find the length of a cycle
 - Split a linked list for Merge Sort
 - Reverse the second half of a linked list
