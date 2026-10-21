@@ -1,6 +1,6 @@
 ### Phase 2: Sorting Algorithms and Strategies (Weeks 10–11)
 
-- **Core Concepts:** 
+- **Core Concepts:**  
     - Comparison-based Sorting (Merge Sort, Quick Sort, Heap Sort).
     - Iterative/Basic Sorting (Insertion Sort, Selection Sort, Bubble Sort) - Good to know for fundamentals.
     - Non-comparison Sorting (Counting Sort, Bucket Sort, Radix Sort) - O(N) time complexity.
