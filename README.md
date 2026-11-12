@@ -1,8 +1,8 @@
-## Neetcode: Roadmap
+## Neetcode: Roadmap 
 
 - https://neetcode.io/roadmap
 
-## Data Structures  
+## Data Structures 
 
 - A data structure is a specialized format for organizing, processing, and storing data in a computer.
 - It defines the relationship between the data elements and the operations that can be performed on them.
